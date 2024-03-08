@@ -1,16 +1,30 @@
 // import Listgroup from "./Components/Listgroup"
-import LoginForm from "./Components/LoginForm"
+import LoginForm from "./Components/MUILogin/LoginForm"
 
-function App() {
-
+// import Counter from "./Components/ClickCounter/Counter"
+// import LoginCard from "./Components/UserLogin/LoginCard"
+const  App: React.FC = () => {
   return (
-    <>
     <div>
-    {/* <Listgroup/> */}
-    <LoginForm/>
+      {/* <LoginCard /> */}
+       <LoginForm/>
     </div>
-     </>
-  )
-}
+  );
+};
+
+//{
+
+//   return (
+//     <>
+//     <div>
+   
+//       <LoginCard />
+//       {/* <Counter /> */}
+//     {/* <Listgroup/> */}
+    {/* <LoginForm/> */}
+//     </div>
+//      </>
+//   )
+// }
 
 export default App
