@@ -26,7 +26,7 @@ const LoginForm: React.FC = () => {
 //     //
 //   };
   return (
-    <>
+    <> 
     <div className={LoginStyle.mainContainer}>
       <form className={LoginStyle.form}>
         <div style={{ padding: "50px" }}>

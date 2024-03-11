@@ -2,8 +2,9 @@
   width: 100%;
   background-color: white;
   height: 100%;
-  display: flex;
-  justify-content: center; 
+  display: absolute;
+  right: ; 
+
   }
 .header{
     margin-bottom: 50px;

@@ -1,13 +1,22 @@
 // import Listgroup from "./Components/Listgroup"
-import LoginForm from "./Components/MUILogin/LoginForm"
+import Homepage from "./Components/Hompage/Hompage";
+import TopNavBar from "./Components/NaviBar/TopNavBar";
+// import LoginForm from "./Components/MUILogin/LoginForm"
 
 // import Counter from "./Components/ClickCounter/Counter"
 // import LoginCard from "./Components/UserLogin/LoginCard"
-const  App: React.FC = () => {
+
+
+
+const  App: React.FC= () => {
   return (
     <div>
       {/* <LoginCard /> */}
-       <LoginForm/>
+       {/* <LoginForm/> */}
+     
+       <TopNavBar/>
+       <Homepage/>
+     
     </div>
   );
 };
