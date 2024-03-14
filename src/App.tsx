@@ -5,17 +5,23 @@ import TopNavBar from "./Components/NaviBar/TopNavBar";
 
 // import Counter from "./Components/ClickCounter/Counter"
 // import LoginCard from "./Components/UserLogin/LoginCard"
-
+// import ReactDOM from "react-dom";
+// import { Provider } from "react-redux";
+// import store from "./Components/Redux and saga testing/store";
 
 
 const  App: React.FC= () => {
   return (
     <div>
+       {/* <Provider store={store}> */}
+    <App />
+  
       {/* <LoginCard /> */}
        {/* <LoginForm/> */}
      
        <TopNavBar/>
        <Homepage/>
+       {/* </Provider> */}
      
     </div>
   );
